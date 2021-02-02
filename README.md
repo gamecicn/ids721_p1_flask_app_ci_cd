@@ -1,5 +1,7 @@
 # Continuous Delivery of Flask Application on AWS EBS
 
+
+
 In this article, I will explain how to implement Continuous Delivery (CD) pipeline on GitHub and AWS.  For this propose, I use a toy python Flask Application as a demo project. The project's code is hosted using a GitHub repository . The Flask Application is deployed on AWS Elastic Beanstalk. Aside from that, AWS Code pipeline is used to trigger a deploy process automatically when there is a new commit to the GitHub repository. 
 
 
@@ -40,17 +42,23 @@ Here is the follow chart of this demo, it is very straightforward and contains t
 3. AWS Code Pipeline download code from GitHub repository  and deploy it to Elastic Beanstalk.
 4. Elastic Beanstalk update Flask Application.
 
-##  Demo 
+##  Demonstration 
 
-#### 
+####  Push  Code Change
 
+![](C:\D\MIDS\IDS 721 Cloud Computing\indivial projects\p1_flask_ci\ids721_p1_flask_app_ci_cd\image\CodeChange.png)
 
+#### AWS Code Pipeline Deploy New Application
 
+![](C:\D\MIDS\IDS 721 Cloud Computing\indivial projects\p1_flask_ci\ids721_p1_flask_app_ci_cd\image\AWS_Codepipeline_ReDeploy.png)
 
+#### Elastic Beanstalk Finish Deployment
 
+![](C:\D\MIDS\IDS 721 Cloud Computing\indivial projects\p1_flask_ci\ids721_p1_flask_app_ci_cd\image\AWS_EBS_deploy.png)
 
+#### Web Page Updated
 
-
+![](C:\D\MIDS\IDS 721 Cloud Computing\indivial projects\p1_flask_ci\ids721_p1_flask_app_ci_cd\image\Webpage.png)
 
 
 
