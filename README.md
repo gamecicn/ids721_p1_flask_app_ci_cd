@@ -46,19 +46,19 @@ Here is the follow chart of this demo, it is very straightforward and contains t
 
 ####  Push  Code Change
 
-![](C:\D\MIDS\IDS 721 Cloud Computing\indivial projects\p1_flask_ci\ids721_p1_flask_app_ci_cd\image\CodeChange.png)
+![](./image/CodeChange.png)
 
 #### AWS Code Pipeline Deploy New Application
 
-![](C:\D\MIDS\IDS 721 Cloud Computing\indivial projects\p1_flask_ci\ids721_p1_flask_app_ci_cd\image\AWS_Codepipeline_ReDeploy.png)
+![](./image/AWS_Codepipeline_ReDeploy.png)
 
 #### Elastic Beanstalk Finish Deployment
 
-![](C:\D\MIDS\IDS 721 Cloud Computing\indivial projects\p1_flask_ci\ids721_p1_flask_app_ci_cd\image\AWS_EBS_deploy.png)
+![](./image/AWS_EBS_deploy.png)
 
 #### Web Page Updated
 
-![](C:\D\MIDS\IDS 721 Cloud Computing\indivial projects\p1_flask_ci\ids721_p1_flask_app_ci_cd\image\Webpage.png)
+![](./image/Webpage.png)
 
 
 
