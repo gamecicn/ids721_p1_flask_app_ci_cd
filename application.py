@@ -1,7 +1,7 @@
 from flask import Flask
 
 # print a nice greeting.
-def say_hello(username = "Duke MIDS"):
+def say_hello(username = "Duke IDS 721"):
     return '<p>Hello %s!</p>\n' % username
 
 # some bits of text for the page.
